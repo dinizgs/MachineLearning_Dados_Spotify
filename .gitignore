@@ -1,0 +1,59 @@
+# ================================= ambiente virtual =================================
+venv/
+env/
+ENV/
+.env
+
+# ================================= cache do python =================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ================================= dados e planilhas =================================
+data/csv/
+data/planilha/
+*.csv
+*.xlsx
+*.xls
+
+# ================================= outputs e modelos =================================
+outputs/
+*.h5
+*.pkl
+*.pt
+*.pth
+*.joblib
+*.onnx
+
+# ================================= IDEs e sistema operacional =================================
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini

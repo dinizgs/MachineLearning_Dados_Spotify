@@ -28,13 +28,6 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# ================================= dados e planilhas =================================
-data/csv/
-data/planilha/
-*.csv
-*.xlsx
-*.xls
-
 # ================================= outputs e modelos =================================
 outputs/
 *.h5

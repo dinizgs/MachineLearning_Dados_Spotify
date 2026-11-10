@@ -29,7 +29,8 @@ share/python-wheels/
 MANIFEST
 
 # ================================= outputs e modelos =================================
-outputs/
+outputs/*
+!outputs/.gitkeep
 *.h5
 *.pkl
 *.pt
